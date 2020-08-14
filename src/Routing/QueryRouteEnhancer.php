@@ -7,7 +7,7 @@ use Drupal\graphql\QueryMapProvider\QueryMapProviderInterface;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Route;
 
-class QueryRouteEnhancer implements RouteEnhancerInterface {
+class QueryRouteEnhancer implements EnhancerInterface {
 
   /**
    * The query map provider service.
