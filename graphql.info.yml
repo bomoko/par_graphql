@@ -4,3 +4,4 @@ description: 'Exposes your Drupal data model through a GraphQL schema.'
 package: GraphQL
 configure: graphql.config_page
 core: 8.x
+core_version_requirement: ^8 || ^9
